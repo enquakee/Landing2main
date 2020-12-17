@@ -13,6 +13,7 @@
     padding: 0;
     border-radius: 12px;
     box-shadow: 2px 2px 20px #E9EEF1;
+    border: 1px solid E9EEF1;
 }
 
 .courses__containerItemTitle {
