@@ -5,8 +5,9 @@
 @import "./common.css";
 @import "./hero.css";
 @import "./courses.css";
-@import "./container-item.css";
+@import "./courses-container-item.css";
 @import "./advantages.css";
+@import "./advantages-container-item.css";
 
 
 .mainWrapper {
@@ -19,7 +20,8 @@
     ". header ."
     ". heroMain ."
     ". courses ."
-    ". heroSecond .";
+    ". heroSecond ."
+    ". advantages .";
     grid-template-columns: var(--side-gap) 1fr var(--side-gap);
     font-family: var(--f-reg);
     color: var(--c-midnight);
