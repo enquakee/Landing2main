@@ -8,7 +8,8 @@
 @import "./courses-container-item.css";
 @import "./advantages.css";
 @import "./advantages-container-item.css";
-
+@import "./request.css";
+@import "./footer.css";
 
 .mainWrapper {
     --side-gap: 92px;
@@ -21,7 +22,9 @@
     ". heroMain ."
     ". courses ."
     ". heroSecond ."
-    ". advantages .";
+    ". advantages ."
+    "request request request"
+    ". footer .";
     grid-template-columns: var(--side-gap) 1fr var(--side-gap);
     font-family: var(--f-reg);
     color: var(--c-midnight);
